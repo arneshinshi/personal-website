@@ -26,12 +26,9 @@ section{
 .top-section{
     background: white;
     background-repeat: no-repeat;
+    padding-top: 10px;
 }
 .middle-section{
-    background: white;
-    background-repeat: no-repeat;
-}
-.project-section{
     background: white;
     background-repeat: no-repeat;
 }
@@ -61,13 +58,14 @@ footer{
     font-size: 12px;
     padding-bottom: 1%;
 }
+.project-section{
+}
 .cards{
-    width: 33.33%;
-    height: 70%;
-    margin: 20px;
-    background-color: white;
-    box-shadow: 2px 2px 10px black;
+    width: 29%;
+    height: 62%;
     float: left;
+    box-shadow: 2px 2px 10px black;
+    margin: 2%;
 }
 .image img{
     width: 100%;
@@ -85,7 +83,6 @@ footer{
     padding-bottom: 10px;
     padding-left: 5px;
     padding-right: 5px;
-    
 }
 .menubar{
     text-decoration: none;
@@ -93,7 +90,8 @@ footer{
     color: black;
     font-size: 18px;
     font-weight: 700;
+    padding-top: 10px;
+    padding-bottom: 10px;
     padding-right: 20px;
-    padding-top: 5px;
-    margin-bottom: 50px;
+    background-color: lightgray;
 }
